@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/widgets/custom_appBar.dart';
+import 'package:notes_app/widgets/custom_note_item.dart';
+import 'package:notes_app/widgets/notes_view_body.dart';
 
 class NotesView extends StatelessWidget {
   const NotesView({super.key});
@@ -8,13 +10,7 @@ class NotesView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Notes'),
-        //   actions: [
-        //     IconButton(onPressed: () {}, icon: Icon(Icons.search)),
-        //   ],
-        // ),
-        body: CustomAppbar(),
+        body: NotesViewBody(),
       ),
     );
   }
