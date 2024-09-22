@@ -8,14 +8,17 @@ class CustomListOfNotes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       // expanded is put to list view and wrapped in flex widget column or row
-      child: ListView.builder(
-          itemCount: 10,
-          itemBuilder: (context, index) {
-            return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 4),
-              child: CustomNoteItem(),
-            );
-          }),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 8.0),
+        child: ListView.builder(
+            itemCount: 10,
+            itemBuilder: (context, index) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4),
+                child: CustomNoteItem(),
+              );
+            }),
+      ),
     );
   }
 }
