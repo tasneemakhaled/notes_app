@@ -11,6 +11,10 @@ class NotesView extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: NotesViewBody(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
       ),
     );
   }

@@ -12,7 +12,7 @@ class CustomListOfNotes extends StatelessWidget {
           itemCount: 10,
           itemBuilder: (context, index) {
             return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
+              padding: const EdgeInsets.symmetric(vertical: 4),
               child: CustomNoteItem(),
             );
           }),
