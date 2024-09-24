@@ -1,9 +1,9 @@
 import 'package:hive/hive.dart';
 part 'note_model.g.dart';
 
-@HiveType(typeId: 1)
+@HiveType(typeId: 1) // no class can take this id ever
 class NoteModel extends HiveObject {
-  @HiveField(0)
+  @HiveField(0) // inique per class
   final String title;
   @HiveField(1)
   final String subTitle;
