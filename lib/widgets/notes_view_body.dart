@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
 import 'package:notes_app/widgets/custom_appBar.dart';
 import 'package:notes_app/widgets/custom_listOfNotes.dart';
-import 'package:notes_app/widgets/custom_note_item.dart';
 
 class NotesViewBody extends StatefulWidget {
   const NotesViewBody({super.key});
@@ -28,7 +27,7 @@ class _NotesViewBodyState extends State<NotesViewBody> {
         children: [
           CustomAppbar(
             title: 'Notes',
-            icon: Icons.search,
+            icon: Icon(Icons.search),
           ),
           CustomListOfNotes(),
         ],
