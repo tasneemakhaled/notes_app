@@ -12,7 +12,7 @@ class EditNoteColorsList extends StatefulWidget {
 class _EditNoteColorsListState extends State<EditNoteColorsList> {
   List<Color> colors = const [
     Color(0xffea9ab2),
-    Color(0xffefcfe3),
+    Color(0xffef476f),
     Color(0xffff5c8a),
     Color(0xffe29578),
     Color(0xff6b705c),

@@ -33,9 +33,9 @@ class ColorsListView extends StatefulWidget {
 
 class _ColorsListViewState extends State<ColorsListView> {
   int currentIndex = 0;
-  List<Color> colors = [
+  List<Color> colors = const [
     Color(0xffea9ab2),
-    Color(0xffefcfe3),
+    Color(0xffef476f),
     Color(0xffff5c8a),
     Color(0xffe29578),
     Color(0xff6b705c),

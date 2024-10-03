@@ -566,10 +566,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-10-02T15:02:03.948699Z",
+  "generated": "2024-10-03T19:35:02.120336Z",
   "generator": "pub",
-  "generatorVersion": "3.5.2",
+  "generatorVersion": "3.5.3",
   "flutterRoot": "file:///C:/Users/ascom/Desktop/flutter",
-  "flutterVersion": "3.24.2",
+  "flutterVersion": "3.24.3",
   "pubCache": "file:///C:/Users/ascom/AppData/Local/Pub/Cache"
 }

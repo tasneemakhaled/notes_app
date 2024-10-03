@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notes_app/constants.dart';
 import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
-import 'package:notes_app/widgets/show_modalBottomSheet.dart';
+import 'package:notes_app/widgets/show_modalbottomsheet.dart';
 
 import 'package:notes_app/widgets/notes_view_body.dart';
 
@@ -13,9 +13,9 @@ class NotesView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: NotesViewBody(),
+        body: const NotesViewBody(),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: kPrimarycolor,
+          backgroundColor: const Color(0xffa98467),
           onPressed: () {
             showModalBottomSheet(
               isScrollControlled: true,
@@ -24,13 +24,13 @@ class NotesView extends StatelessWidget {
               ),
               context: context,
               builder: (context) {
-                return AddingShowModalbottomsheet();
+                return const AddingShowModalbottomsheet();
               },
             );
           },
-          child: Icon(
+          child: const Icon(
             Icons.add,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
       ),

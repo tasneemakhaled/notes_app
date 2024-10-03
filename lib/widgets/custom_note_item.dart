@@ -32,7 +32,7 @@ class CustomNoteItem extends StatelessWidget {
               child: ListTile(
                 title: Text(
                   note.title,
-                  style: TextStyle(fontSize: 24),
+                  style: const TextStyle(fontSize: 24),
                 ),
                 subtitle: Text(
                   note.subTitle,
@@ -40,7 +40,7 @@ class CustomNoteItem extends StatelessWidget {
                       fontSize: 16, color: Colors.white.withOpacity(.5)),
                 ),
                 trailing: IconButton(
-                  icon: Icon(
+                  icon: const Icon(
                     FontAwesomeIcons.trash,
                   ),
                   onPressed: () {
